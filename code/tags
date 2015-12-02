@@ -1,0 +1,236 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BPB_BkBootSec	Fat32DataAccess.hpp	/^    uint16_t BPB_BkBootSec;$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_BytsPerSec	Fat32DataAccess.hpp	/^    uint16_t BPB_BytsPerSec; \/\/ Bytes per sector$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_ExtFlags	Fat32DataAccess.hpp	/^    uint16_t BPB_ExtFlags;$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_FATSz16	Fat32DataAccess.hpp	/^    uint16_t BPB_FATSz16;$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_FATSz32	Fat32DataAccess.hpp	/^    uint32_t BPB_FATSz32;$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_FSInfo	Fat32DataAccess.hpp	/^    uint16_t BPB_FSInfo;$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_FSVer	Fat32DataAccess.hpp	/^    uint16_t BPB_FSVer;$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_HiddSec	Fat32DataAccess.hpp	/^    uint32_t BPB_HiddSec; \/* 32-bit value of number of sectors in file system.$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_Media	Fat32DataAccess.hpp	/^    uint8_t BPB_Media;$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_NumFATs	Fat32DataAccess.hpp	/^    uint8_t BPB_NumFATs;     \/\/ Number of FATs$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_NumHeads	Fat32DataAccess.hpp	/^    uint16_t BPB_NumHeads;$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_Reserved	Fat32DataAccess.hpp	/^    uint8_t BPB_Reserved[12];$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_RootClus	Fat32DataAccess.hpp	/^    uint32_t BPB_RootClus; \/\/ Cluster where the root directory can be found$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_RootEntCnt	Fat32DataAccess.hpp	/^    uint16_t BPB_RootEntCnt;$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_RsvdSecCnt	Fat32DataAccess.hpp	/^    uint16_t BPB_RsvdSecCnt; \/\/ Size in sectors of the reserved area$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_SecPerClus	Fat32DataAccess.hpp	/^    uint8_t BPB_SecPerClus;  \/\/ Sectors per cluster$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_SecPerTrk	Fat32DataAccess.hpp	/^    uint16_t BPB_SecPerTrk;$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_TotSec16	Fat32DataAccess.hpp	/^    uint16_t BPB_TotSec16; \/\/ 16-bit value of number of sectors in file system$/;"	m	struct:Fat32DataAccess::BootSector
+BPB_TotSec32	Fat32DataAccess.hpp	/^    uint32_t BPB_TotSec32; \/\/ 32-bit size in sectors of one FAT$/;"	m	struct:Fat32DataAccess::BootSector
+BS_BootSig	Fat32DataAccess.hpp	/^    uint8_t BS_BootSig;$/;"	m	struct:Fat32DataAccess::BootSector
+BS_DrvNum	Fat32DataAccess.hpp	/^    uint8_t BS_DrvNum;$/;"	m	struct:Fat32DataAccess::BootSector
+BS_FilSysType	Fat32DataAccess.hpp	/^    uint8_t BS_FilSysType[8];$/;"	m	struct:Fat32DataAccess::BootSector
+BS_OEMName	Fat32DataAccess.hpp	/^    uint8_t BS_OEMName[8];$/;"	m	struct:Fat32DataAccess::BootSector
+BS_Reserved1	Fat32DataAccess.hpp	/^    uint8_t BS_Reserved1;$/;"	m	struct:Fat32DataAccess::BootSector
+BS_VolID	Fat32DataAccess.hpp	/^    uint32_t BS_VolID;$/;"	m	struct:Fat32DataAccess::BootSector
+BS_VolLab	Fat32DataAccess.hpp	/^    uint8_t BS_VolLab[11];$/;"	m	struct:Fat32DataAccess::BootSector
+BS_jmpBoot	Fat32DataAccess.hpp	/^    uint8_t BS_jmpBoot[3];$/;"	m	struct:Fat32DataAccess::BootSector
+BootSector	Fat32DataAccess.hpp	/^  struct BootSector {$/;"	s	class:Fat32DataAccess
+BrokenFATChain	Fat32DataAccess.cpp	/^BrokenFATChain::BrokenFATChain() : exception() {}$/;"	f	class:BrokenFATChain
+BrokenFATChain	Fat32DataAccess.hpp	/^class BrokenFATChain : public exception$/;"	c
+CXX	Makefile	/^CXX=g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS=-Wall -std=c++0x$/;"	m
+ClusterOccupied	Fat32DataAccess.cpp	/^ClusterOccupied::ClusterOccupied() : exception() {}$/;"	f	class:ClusterOccupied
+ClusterOccupied	Fat32DataAccess.hpp	/^class ClusterOccupied : public exception$/;"	c
+DIR_Attr	Fat32DataAccess.hpp	/^      uint8_t DIR_Attr;$/;"	m	struct:Fat32DataAccess::DirEntry::SFNEntry
+DIR_CrtDate	Fat32DataAccess.hpp	/^      uint16_t DIR_CrtDate;$/;"	m	struct:Fat32DataAccess::DirEntry::SFNEntry
+DIR_CrtTime	Fat32DataAccess.hpp	/^      uint16_t DIR_CrtTime;$/;"	m	struct:Fat32DataAccess::DirEntry::SFNEntry
+DIR_CrtTimeTenth	Fat32DataAccess.hpp	/^      uint8_t DIR_CrtTimeTenth;$/;"	m	struct:Fat32DataAccess::DirEntry::SFNEntry
+DIR_Ext	Fat32DataAccess.hpp	/^      uint8_t DIR_Ext[3];  \/\/3 Extendion$/;"	m	struct:Fat32DataAccess::DirEntry::SFNEntry
+DIR_FileSize	Fat32DataAccess.hpp	/^      uint32_t DIR_FileSize;  \/\/File Size$/;"	m	struct:Fat32DataAccess::DirEntry::SFNEntry
+DIR_FstClusHI	Fat32DataAccess.hpp	/^      uint16_t DIR_FstClusHI; \/\/First cluster HI 2 bytes$/;"	m	struct:Fat32DataAccess::DirEntry::SFNEntry
+DIR_FstClusLO	Fat32DataAccess.hpp	/^      uint16_t DIR_FstClusLO; \/\/First cluster LOW 2 bytes$/;"	m	struct:Fat32DataAccess::DirEntry::SFNEntry
+DIR_LstAccDate	Fat32DataAccess.hpp	/^      uint16_t DIR_LstAccDate;$/;"	m	struct:Fat32DataAccess::DirEntry::SFNEntry
+DIR_NTRes	Fat32DataAccess.hpp	/^      uint8_t DIR_NTRes;$/;"	m	struct:Fat32DataAccess::DirEntry::SFNEntry
+DIR_Name	Fat32DataAccess.hpp	/^      uint8_t DIR_Name[8]; \/\/8 Name$/;"	m	struct:Fat32DataAccess::DirEntry::SFNEntry
+DIR_WrtDate	Fat32DataAccess.hpp	/^      uint16_t DIR_WrtDate;$/;"	m	struct:Fat32DataAccess::DirEntry::SFNEntry
+DIR_WrtTime	Fat32DataAccess.hpp	/^      uint16_t DIR_WrtTime;$/;"	m	struct:Fat32DataAccess::DirEntry::SFNEntry
+DirEntry	Fat32DataAccess.hpp	/^  union DirEntry {$/;"	u	class:Fat32DataAccess
+DirEntry83EndFlag	Fat32DataAccess.cpp	/^const uint8_t Fat32DataAccess::DirEntry83EndFlag = 0x20;$/;"	m	class:Fat32DataAccess	file:
+DirEntry83EndFlag	Fat32DataAccess.hpp	/^  static const uint8_t DirEntry83EndFlag;$/;"	m	class:Fat32DataAccess
+DirEntryDeleteFlag	Fat32DataAccess.cpp	/^const uint8_t Fat32DataAccess::DirEntryDeleteFlag = 0xE5;$/;"	m	class:Fat32DataAccess	file:
+DirEntryDeleteFlag	Fat32DataAccess.hpp	/^  static const uint8_t DirEntryDeleteFlag;$/;"	m	class:Fat32DataAccess
+DirEntryDirAttr	Fat32DataAccess.cpp	/^const uint8_t Fat32DataAccess::DirEntryDirAttr = 0x10;$/;"	m	class:Fat32DataAccess	file:
+DirEntryDirAttr	Fat32DataAccess.hpp	/^  static const uint8_t DirEntryDirAttr;$/;"	m	class:Fat32DataAccess
+DirEntryEmptyFlag	Fat32DataAccess.cpp	/^const uint8_t Fat32DataAccess::DirEntryEmptyFlag = 0x00;$/;"	m	class:Fat32DataAccess	file:
+DirEntryEmptyFlag	Fat32DataAccess.hpp	/^  static const uint8_t DirEntryEmptyFlag;$/;"	m	class:Fat32DataAccess
+DirEntryIsDeleted	Fat32DataAccess.cpp	/^const uint8_t Fat32DataAccess::DirEntryIsDeleted = 0x01;$/;"	m	class:Fat32DataAccess	file:
+DirEntryIsDeleted	Fat32DataAccess.hpp	/^  static const uint8_t DirEntryIsDeleted;$/;"	m	class:Fat32DataAccess
+DirEntryIsEmpty	Fat32DataAccess.cpp	/^const uint8_t Fat32DataAccess::DirEntryIsEmpty = 0x00;$/;"	m	class:Fat32DataAccess	file:
+DirEntryIsEmpty	Fat32DataAccess.hpp	/^  static const uint8_t DirEntryIsEmpty;$/;"	m	class:Fat32DataAccess
+DirEntryIsLFN	Fat32DataAccess.cpp	/^const uint8_t Fat32DataAccess::DirEntryIsLFN = 0x02;$/;"	m	class:Fat32DataAccess	file:
+DirEntryIsLFN	Fat32DataAccess.hpp	/^  static const uint8_t DirEntryIsLFN;$/;"	m	class:Fat32DataAccess
+DirEntryIsSFN	Fat32DataAccess.cpp	/^const uint8_t Fat32DataAccess::DirEntryIsSFN = 0x04;$/;"	m	class:Fat32DataAccess	file:
+DirEntryIsSFN	Fat32DataAccess.hpp	/^  static const uint8_t DirEntryIsSFN;$/;"	m	class:Fat32DataAccess
+DirEntryLFNAttr	Fat32DataAccess.cpp	/^const uint8_t Fat32DataAccess::DirEntryLFNAttr = 0x0F;$/;"	m	class:Fat32DataAccess	file:
+DirEntryLFNAttr	Fat32DataAccess.hpp	/^  static const uint8_t DirEntryLFNAttr;$/;"	m	class:Fat32DataAccess
+DirEntryLFNEndFlag	Fat32DataAccess.cpp	/^const uint16_t Fat32DataAccess::DirEntryLFNEndFlag = 0x00;$/;"	m	class:Fat32DataAccess	file:
+DirEntryLFNEndFlag	Fat32DataAccess.hpp	/^  static const uint16_t DirEntryLFNEndFlag;$/;"	m	class:Fat32DataAccess
+FAT32ACTION_HPP	Fat32Action.hpp	2;"	d
+FAT32DATAACCESS_HPP	Fat32DataAccess.hpp	2;"	d
+FAT32RECOVERYAPP_HPP	Fat32RecoveryApp.hpp	2;"	d
+FATEOFClus	Fat32DataAccess.cpp	/^const uint32_t Fat32DataAccess::FATEOFClus = 0x0FFFFFF8; \/\/EOF: >=0x0FFFFFF8$/;"	m	class:Fat32DataAccess	file:
+FATEOFClus	Fat32DataAccess.hpp	/^  static const uint32_t FATEOFClus;$/;"	m	class:Fat32DataAccess
+FATEntryMask	Fat32DataAccess.cpp	/^const uint32_t Fat32DataAccess::FATEntryMask = 0x0FFFFFFF;$/;"	m	class:Fat32DataAccess	file:
+FATEntryMask	Fat32DataAccess.hpp	/^  static const uint32_t FATEntryMask;$/;"	m	class:Fat32DataAccess
+FATFreeClus	Fat32DataAccess.cpp	/^const uint32_t Fat32DataAccess::FATFreeClus = 0x00000000;$/;"	m	class:Fat32DataAccess	file:
+FATFreeClus	Fat32DataAccess.hpp	/^  static const uint32_t FATFreeClus;$/;"	m	class:Fat32DataAccess
+FILERECOVERY83WITHMD5_HPP	FileRecovery83WithMD5.hpp	2;"	d
+FILERECOVERY83_HPP	FileRecovery83.hpp	2;"	d
+FILERECOVERYLONG_HPP	FileRecoveryLong.hpp	2;"	d
+Fat32Action	Fat32Action.cpp	/^Fat32Action::Fat32Action(const string &devName) throw(FileIOError)$/;"	f	class:Fat32Action
+Fat32Action	Fat32Action.hpp	/^class Fat32Action$/;"	c
+Fat32ActionError	Fat32Action.cpp	/^Fat32ActionError::Fat32ActionError(const string &what_arg)$/;"	f	class:Fat32ActionError
+Fat32ActionError	Fat32Action.hpp	/^class Fat32ActionError : public runtime_error$/;"	c
+Fat32DataAccess	Fat32DataAccess.cpp	/^Fat32DataAccess::Fat32DataAccess(const string &devName) throw(FileIOError)$/;"	f	class:Fat32DataAccess
+Fat32DataAccess	Fat32DataAccess.hpp	/^class Fat32DataAccess$/;"	c
+Fat32RecoveryApp	Fat32RecoveryApp.cpp	/^Fat32RecoveryApp(char *name) throw()$/;"	f	class:Fat32RecoveryApp
+Fat32RecoveryApp	Fat32RecoveryApp.hpp	/^class Fat32RecoveryApp$/;"	c
+FileHandler	Fat32DataAccess.cpp	/^FileHandler::FileHandler() throw()$/;"	f	class:FileHandler
+FileHandler	Fat32DataAccess.cpp	/^FileHandler::FileHandler(const string &sName, const string &lName, bool _isDel,$/;"	f	class:FileHandler
+FileHandler	Fat32DataAccess.cpp	/^FileHandler::FileHandler(uint32_t _fstClus, uint32_t _offset) throw()$/;"	f	class:FileHandler
+FileHandler	Fat32DataAccess.hpp	/^class FileHandler$/;"	c
+FileIOError	Fat32DataAccess.cpp	/^FileIOError::FileIOError(error_code ec, const char *what_arg)$/;"	f	class:FileIOError
+FileIOError	Fat32DataAccess.cpp	/^FileIOError::FileIOError(error_code ec, const string &what_arg)$/;"	f	class:FileIOError
+FileIOError	Fat32DataAccess.cpp	/^FileIOError::FileIOError(int ev, const char *what_arg)$/;"	f	class:FileIOError
+FileIOError	Fat32DataAccess.cpp	/^FileIOError::FileIOError(int ev, const string &what_arg)$/;"	f	class:FileIOError
+FileIOError	Fat32DataAccess.hpp	/^class FileIOError : public system_error$/;"	c
+FileIsDir	Fat32DataAccess.cpp	/^const uint8_t FileHandler::FileIsDir = 0x10;$/;"	m	class:FileHandler	file:
+FileIsDir	Fat32DataAccess.hpp	/^  static const uint8_t FileIsDir;$/;"	m	class:FileHandler
+FileRecovery83	FileRecovery83.cpp	/^FileRecovery83::FileRecovery83(const string &devName,$/;"	f	class:FileRecovery83
+FileRecovery83	FileRecovery83.hpp	/^class FileRecovery83 : public Fat32Action$/;"	c
+FileRecovery83WithMD5	FileRecovery83WithMD5.cpp	/^FileRecovery83WithMD5::FileRecovery83WithMD5($/;"	f	class:FileRecovery83WithMD5
+FileRecovery83WithMD5	FileRecovery83WithMD5.hpp	/^class FileRecovery83WithMD5 : public Fat32Action$/;"	c
+FileRecoveryLong	FileRecoveryLong.cpp	/^FileRecoveryLong::FileRecoveryLong(const string &devName,$/;"	f	class:FileRecoveryLong
+FileRecoveryLong	FileRecoveryLong.hpp	/^class FileRecoveryLong : public Fat32Action$/;"	c
+InvalidArgumentError	Fat32RecoveryApp.cpp	/^InvalidArgumentError(const string &what_arg)$/;"	f	class:InvalidArgumentError
+InvalidArgumentError	Fat32RecoveryApp.hpp	/^class InvalidArgumentError : public runtime_error$/;"	c
+LFNEntry	Fat32DataAccess.hpp	/^    struct LFNEntry {$/;"	s	union:Fat32DataAccess::DirEntry
+LINK.o	Makefile	/^LINK.o=g++$/;"	m
+LISTALLDIRECTORY_HPP	ListAllDirectoryEntry.hpp	2;"	d
+LLIOEOF	LowLevelIO.cpp	/^LLIOEOF::LLIOEOF() : exception() {}$/;"	f	class:LLIOEOF
+LLIOEOF	LowLevelIO.hpp	/^class LLIOEOF : public exception$/;"	c
+LLIOError	LowLevelIO.cpp	/^LLIOError::LLIOError(int ev) : system_error(ev, system_category()) {}$/;"	f	class:LLIOError
+LLIOError	LowLevelIO.hpp	/^class LLIOError : public system_error$/;"	c
+LOADLIBES	Makefile	/^LOADLIBES=-lssl -lcrypto$/;"	m
+LOWLEVELIO_HPP	LowLevelIO.hpp	2;"	d
+ListAllDirectoryEntry	ListAllDirectoryEntry.cpp	/^ListAllDirectoryEntry(const string &devName)$/;"	f	class:ListAllDirectoryEntry
+ListAllDirectoryEntry	ListAllDirectoryEntry.hpp	/^class ListAllDirectoryEntry : public Fat32Action$/;"	c
+LowLevelIO	LowLevelIO.hpp	/^class  LowLevelIO$/;"	c
+NoMoreData	Fat32DataAccess.cpp	/^NoMoreData::NoMoreData() : exception() {}$/;"	f	class:NoMoreData
+NoMoreData	Fat32DataAccess.hpp	/^class NoMoreData : public exception$/;"	c
+OBJECTS	Makefile	/^OBJECTS=recovery.o\\$/;"	m
+PRINTBOOTSECTORINFO_HPP	PrintBootSectorInfo.hpp	2;"	d
+PrintBootSectorInfo	PrintBootSectorInfo.cpp	/^PrintBootSectorInfo(const string &devName)  throw (FileIOError)$/;"	f	class:PrintBootSectorInfo
+PrintBootSectorInfo	PrintBootSectorInfo.hpp	/^class PrintBootSectorInfo : public Fat32Action$/;"	c
+RawEntry	Fat32DataAccess.hpp	/^    struct RawEntry {$/;"	s	union:Fat32DataAccess::DirEntry
+SFNEntry	Fat32DataAccess.hpp	/^    struct SFNEntry {$/;"	s	union:Fat32DataAccess::DirEntry
+action	Fat32RecoveryApp.hpp	/^  Fat32Action *action;$/;"	m	class:Fat32RecoveryApp
+alias_checksum	Fat32DataAccess.hpp	/^      uint8_t alias_checksum; \/* checksum for 8.3 alias *\/$/;"	m	struct:Fat32DataAccess::DirEntry::LFNEntry
+appName	Fat32RecoveryApp.hpp	/^  string appName;$/;"	m	class:Fat32RecoveryApp
+attr	Fat32DataAccess.hpp	/^      uint8_t attr;           \/* attribute byte *\/$/;"	m	struct:Fat32DataAccess::DirEntry::LFNEntry
+attr	Fat32DataAccess.hpp	/^      uint8_t attr;$/;"	m	struct:Fat32DataAccess::DirEntry::RawEntry
+buildFileHandler	Fat32DataAccess.cpp	/^FileHandler Fat32DataAccess::buildFileHandler($/;"	f	class:Fat32DataAccess
+bytsPerClus	Fat32DataAccess.hpp	/^  uint32_t bytsPerClus;$/;"	m	class:Fat32DataAccess
+bytsPerFat	Fat32DataAccess.hpp	/^  uintmax_t bytsPerFat;$/;"	m	class:Fat32DataAccess
+bytsPerSec	Fat32DataAccess.hpp	/^  uint32_t bytsPerSec;$/;"	m	class:Fat32DataAccess
+dataOffset	Fat32DataAccess.hpp	/^  uintmax_t dataOffset;$/;"	m	class:Fat32DataAccess
+deviceFd	Fat32DataAccess.hpp	/^  int deviceFd;$/;"	m	class:Fat32DataAccess
+dirClus	Fat32DataAccess.hpp	/^  uint32_t dirClus;$/;"	m	class:FileHandler
+dirLFNOffsets	Fat32DataAccess.hpp	/^  list<uint32_t> dirLFNOffsets;$/;"	m	class:FileHandler
+dirOffset	Fat32DataAccess.hpp	/^  uint32_t dirOffset;$/;"	m	class:FileHandler
+dontcare1	Fat32DataAccess.hpp	/^      uint8_t dontcare1[10];$/;"	m	struct:Fat32DataAccess::DirEntry::RawEntry
+dontcare2	Fat32DataAccess.hpp	/^      uint8_t dontcare2[20];$/;"	m	struct:Fat32DataAccess::DirEntry::RawEntry
+fat32DA	Fat32Action.hpp	/^  Fat32DataAccess fat32DA;$/;"	m	class:Fat32Action
+fatMap	Fat32DataAccess.hpp	/^  map<uint32_t, uint32_t> fatMap;$/;"	m	class:Fat32DataAccess
+fatOffset	Fat32DataAccess.hpp	/^  uintmax_t fatOffset;$/;"	m	class:Fat32DataAccess
+fs32read	Fat32DataAccess.cpp	/^ssize_t Fat32DataAccess::fs32read(FileHandler &fh, void *buf,$/;"	f	class:Fat32DataAccess
+fs32write	Fat32DataAccess.cpp	/^ssize_t Fat32DataAccess::fs32write(FileHandler &fh, void *buf,$/;"	f	class:Fat32DataAccess
+fstClus	Fat32DataAccess.hpp	/^  uint32_t fstClus;$/;"	m	class:FileHandler
+getAllocClusCnt	Fat32DataAccess.cpp	/^uint32_t Fat32DataAccess::getAllocClusCnt() throw()$/;"	f	class:Fat32DataAccess
+getBytsPerSec	Fat32DataAccess.cpp	/^uint32_t Fat32DataAccess::getBytsPerSec() throw()$/;"	f	class:Fat32DataAccess
+getClusOffset	Fat32DataAccess.cpp	/^uint32_t Fat32DataAccess::getClusOffset(uint32_t clusNo) throw()$/;"	f	class:Fat32DataAccess
+getDirClus	Fat32DataAccess.cpp	/^uint32_t FileHandler::getDirClus()$/;"	f	class:FileHandler
+getDirLFNOffsets	Fat32DataAccess.cpp	/^const list<uint32_t> & FileHandler::getDirLFNOffsets()$/;"	f	class:FileHandler
+getDirOffset	Fat32DataAccess.cpp	/^uint32_t FileHandler::getDirOffset()$/;"	f	class:FileHandler
+getFreeClusCnt	Fat32DataAccess.cpp	/^uint32_t Fat32DataAccess::getFreeClusCnt() throw()$/;"	f	class:Fat32DataAccess
+getFstClus	Fat32DataAccess.cpp	/^uint32_t FileHandler::getFstClus()$/;"	f	class:FileHandler
+getLongName	Fat32DataAccess.cpp	/^string FileHandler::getLongName()$/;"	f	class:FileHandler
+getLongNameSegLFN	Fat32DataAccess.cpp	/^string Fat32DataAccess::getLongNameSegLFN(DirEntry &le) throw()$/;"	f	class:Fat32DataAccess
+getNextClus	Fat32DataAccess.cpp	/^uint32_t Fat32DataAccess::getNextClus(uint32_t clusNo) throw()$/;"	f	class:Fat32DataAccess
+getNextFileHandlerFromDir	Fat32DataAccess.cpp	/^FileHandler Fat32DataAccess::getNextFileHandlerFromDir(FileHandler &dh) throw($/;"	f	class:Fat32DataAccess
+getNumFATs	Fat32DataAccess.cpp	/^uint32_t Fat32DataAccess::getNumFATs() throw()$/;"	f	class:Fat32DataAccess
+getOffset	Fat32DataAccess.cpp	/^uint32_t FileHandler::getOffset()$/;"	f	class:FileHandler
+getRootHandler	Fat32DataAccess.cpp	/^FileHandler Fat32DataAccess::getRootHandler() throw()$/;"	f	class:Fat32DataAccess
+getRsvdSecCnt	Fat32DataAccess.cpp	/^uint32_t Fat32DataAccess::getRsvdSecCnt() throw()$/;"	f	class:Fat32DataAccess
+getSecPerClus	Fat32DataAccess.cpp	/^uint32_t Fat32DataAccess::getSecPerClus() throw()$/;"	f	class:Fat32DataAccess
+getShortName	Fat32DataAccess.cpp	/^string FileHandler::getShortName()$/;"	f	class:FileHandler
+getShortNameSFN	Fat32DataAccess.cpp	/^string Fat32DataAccess::getShortNameSFN(DirEntry &de) throw() {$/;"	f	class:Fat32DataAccess
+getSize	Fat32DataAccess.cpp	/^uint32_t FileHandler::getSize()$/;"	f	class:FileHandler
+getTotClusCnt	Fat32DataAccess.cpp	/^uint32_t Fat32DataAccess::getTotClusCnt() throw()$/;"	f	class:Fat32DataAccess
+hasLongName	Fat32DataAccess.cpp	/^bool FileHandler::hasLongName()$/;"	f	class:FileHandler
+id	Fat32DataAccess.hpp	/^      uint8_t id;             \/* sequence number for slot *\/$/;"	m	struct:Fat32DataAccess::DirEntry::LFNEntry
+isDel	Fat32DataAccess.hpp	/^  bool isDel;$/;"	m	class:FileHandler
+isDeleted	Fat32DataAccess.cpp	/^bool FileHandler::isDeleted()$/;"	f	class:FileHandler
+isDir	Fat32DataAccess.hpp	/^  bool isDir;$/;"	m	class:FileHandler
+isDirectory	Fat32DataAccess.cpp	/^bool FileHandler::isDirectory()$/;"	f	class:FileHandler
+isEOFClus	Fat32DataAccess.cpp	/^bool Fat32DataAccess::isEOFClus(uint32_t clusNo) throw()$/;"	f	class:Fat32DataAccess
+isFreeClus	Fat32DataAccess.cpp	/^bool Fat32DataAccess::isFreeClus(uint32_t clusNo) throw()$/;"	f	class:Fat32DataAccess
+isLittleEndian	Fat32DataAccess.hpp	/^  bool isLittleEndian;$/;"	m	class:Fat32DataAccess
+lfn	Fat32DataAccess.hpp	/^    } __attribute__((__packed__)) lfn;$/;"	m	union:Fat32DataAccess::DirEntry	typeref:struct:Fat32DataAccess::DirEntry::LFNEntry
+longName	Fat32DataAccess.hpp	/^  string longName;$/;"	m	class:FileHandler
+main	recovery.cpp	/^int main(int argc, char **argv)$/;"	f
+maxDirEntryPerClus	Fat32DataAccess.hpp	/^  uint32_t maxDirEntryPerClus;$/;"	m	class:Fat32DataAccess
+md5String	FileRecovery83WithMD5.hpp	/^  string md5String;$/;"	m	class:FileRecovery83WithMD5
+name0_4	Fat32DataAccess.hpp	/^      uint16_t name0_4[5];    \/* first 5 characters in name *\/$/;"	m	struct:Fat32DataAccess::DirEntry::LFNEntry
+name11_12	Fat32DataAccess.hpp	/^      uint16_t name11_12[2];  \/* last 2 characters in name *\/$/;"	m	struct:Fat32DataAccess::DirEntry::LFNEntry
+name5_10	Fat32DataAccess.hpp	/^      uint16_t name5_10[6];   \/* 6 more characters in name *\/$/;"	m	struct:Fat32DataAccess::DirEntry::LFNEntry
+numFATs	Fat32DataAccess.hpp	/^  uint32_t numFATs;$/;"	m	class:Fat32DataAccess
+offset	Fat32DataAccess.hpp	/^  uint32_t offset; \/\/relative to start of file$/;"	m	class:FileHandler
+parseArgument	Fat32RecoveryApp.cpp	/^parseArgument(const int argc, char **argv)$/;"	f	class:Fat32RecoveryApp
+printUsage	Fat32RecoveryApp.cpp	/^void Fat32RecoveryApp::printUsage() throw() {$/;"	f	class:Fat32RecoveryApp
+raw	Fat32DataAccess.hpp	/^    } __attribute__((__packed__)) raw;$/;"	m	union:Fat32DataAccess::DirEntry	typeref:struct:Fat32DataAccess::DirEntry::RawEntry
+readBootSector	Fat32DataAccess.cpp	/^void Fat32DataAccess::readBootSector(BootSector &bootSector) throw($/;"	f	class:Fat32DataAccess
+readDirEntry	Fat32DataAccess.cpp	/^uint8_t Fat32DataAccess::readDirEntry(FileHandler &dh,$/;"	f	class:Fat32DataAccess
+readFAT	Fat32DataAccess.cpp	/^void Fat32DataAccess::readFAT() throw(FileIOError)$/;"	f	class:Fat32DataAccess
+recover	Fat32DataAccess.cpp	/^void Fat32DataAccess::recover(FileHandler &fh,$/;"	f	class:Fat32DataAccess
+reserved	Fat32DataAccess.hpp	/^      uint8_t reserved;       \/* always 0 *\/$/;"	m	struct:Fat32DataAccess::DirEntry::LFNEntry
+rootClusNo	Fat32DataAccess.hpp	/^  uint32_t rootClusNo;$/;"	m	class:Fat32DataAccess
+rootHandler	Fat32DataAccess.hpp	/^  FileHandler rootHandler;$/;"	m	class:Fat32DataAccess
+rsvdSecCnt	Fat32DataAccess.hpp	/^  uint32_t rsvdSecCnt;$/;"	m	class:Fat32DataAccess
+run	Fat32RecoveryApp.cpp	/^run() throw(FileIOError)$/;"	f	class:Fat32RecoveryApp
+run	FileRecovery83.cpp	/^void FileRecovery83::run() throw(FileIOError, Fat32ActionError) {$/;"	f	class:FileRecovery83
+run	FileRecovery83WithMD5.cpp	/^void FileRecovery83WithMD5::run() throw(FileIOError, Fat32ActionError) {$/;"	f	class:FileRecovery83WithMD5
+run	FileRecoveryLong.cpp	/^void FileRecoveryLong::run() throw(FileIOError, Fat32ActionError) {$/;"	f	class:FileRecoveryLong
+run	ListAllDirectoryEntry.cpp	/^run()$/;"	f	class:ListAllDirectoryEntry
+run	PrintBootSectorInfo.cpp	/^run()  throw(FileIOError, Fat32ActionError)$/;"	f	class:PrintBootSectorInfo
+secPerClus	Fat32DataAccess.hpp	/^  uint32_t secPerClus;$/;"	m	class:Fat32DataAccess
+setNextClus	Fat32DataAccess.cpp	/^void Fat32DataAccess::setNextClus(uint32_t curClus,$/;"	f	class:Fat32DataAccess
+setOffset	Fat32DataAccess.cpp	/^void FileHandler::setOffset(uint32_t of)$/;"	f	class:FileHandler
+sfn	Fat32DataAccess.hpp	/^    } __attribute__((__packed__)) sfn;$/;"	m	union:Fat32DataAccess::DirEntry	typeref:struct:Fat32DataAccess::DirEntry::SFNEntry
+shortName	Fat32DataAccess.hpp	/^  string shortName;$/;"	m	class:FileHandler
+size	Fat32DataAccess.hpp	/^  uint32_t size;   \/\/no use for directory$/;"	m	class:FileHandler
+start	Fat32DataAccess.hpp	/^      uint16_t start;         \/* starting cluster number, 0 in long slots *\/$/;"	m	struct:Fat32DataAccess::DirEntry::LFNEntry
+status	Fat32DataAccess.hpp	/^      uint8_t status; \/*Never touched: 0x00 ;$/;"	m	struct:Fat32DataAccess::DirEntry::RawEntry
+targetName	FileRecovery83.hpp	/^  string targetName;$/;"	m	class:FileRecovery83
+targetName	FileRecovery83WithMD5.hpp	/^  string targetName;$/;"	m	class:FileRecovery83WithMD5
+targetName	FileRecoveryLong.hpp	/^  string targetName;$/;"	m	class:FileRecoveryLong
+toString	Fat32DataAccess.cpp	/^string FileHandler::toString()$/;"	f	class:FileHandler
+totClusCnt	Fat32DataAccess.hpp	/^  uint32_t totClusCnt;$/;"	m	class:Fat32DataAccess
+totSecCnt	Fat32DataAccess.hpp	/^  uint32_t totSecCnt;$/;"	m	class:Fat32DataAccess
+xpread	LowLevelIO.cpp	/^void LowLevelIO::xpread(int fd, void *buf, size_t count,$/;"	f	class:LowLevelIO
+xpwrite	LowLevelIO.cpp	/^void LowLevelIO::xpwrite(int fd, void *buf, size_t count,$/;"	f	class:LowLevelIO
+~Fat32Action	Fat32Action.cpp	/^Fat32Action::~Fat32Action() throw() {}$/;"	f	class:Fat32Action
+~Fat32DataAccess	Fat32DataAccess.cpp	/^Fat32DataAccess::~Fat32DataAccess() throw()$/;"	f	class:Fat32DataAccess
+~Fat32RecoveryApp	Fat32RecoveryApp.cpp	/^~Fat32RecoveryApp() throw()$/;"	f	class:Fat32RecoveryApp
+~FileRecovery83	FileRecovery83.cpp	/^FileRecovery83::~FileRecovery83() throw() {}$/;"	f	class:FileRecovery83
+~FileRecovery83WithMD5	FileRecovery83WithMD5.cpp	/^FileRecovery83WithMD5::~FileRecovery83WithMD5() throw() {}$/;"	f	class:FileRecovery83WithMD5
+~FileRecoveryLong	FileRecoveryLong.cpp	/^FileRecoveryLong::~FileRecoveryLong() throw() {}$/;"	f	class:FileRecoveryLong
+~ListAllDirectoryEntry	ListAllDirectoryEntry.cpp	/^~ListAllDirectoryEntry()$/;"	f	class:ListAllDirectoryEntry
+~PrintBootSectorInfo	PrintBootSectorInfo.cpp	/^~PrintBootSectorInfo() throw()$/;"	f	class:PrintBootSectorInfo
